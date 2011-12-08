@@ -24,6 +24,12 @@ body {
     .menu {
         margin-left: 180px;
     }
+    #social {
+        float: right;
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+    }
 
 #content {
     border: 4px solid black;
