@@ -29,10 +29,6 @@ body {
         bottom: 20px;
         right: 20px;
     }
-        #social > * {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
 
 #content {
     border: 4px solid black;
