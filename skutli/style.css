@@ -36,6 +36,14 @@ body {
     padding: 20px;
     margin: 20px;
 }
+    #screenshotwrap {
+        width: 100%;
+        text-align: center;
+    }
+        #screenshotwrap .screenshot {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
 #foot {
     border: 4px solid black;

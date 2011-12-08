@@ -1,5 +1,5 @@
 $(function() {
-    $(".screenshot").fancybox({
+    $(".screenshot-link").fancybox({
         openEffect: 'none',
         closeEffect: 'none',
         helpers: {}
