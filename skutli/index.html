@@ -87,39 +87,55 @@
 <p>Skutli is a small Android app (v2.2 and up) that uses data from <a href="http://www.straeto.is">www.straeto.is</a> to display the next time your bus arrives at your favourite station in Reykjavík.
 <p>It is written by <a href="http://baldur.biz">Baldur</a>.
 <h2>Disclamer</h2>
-<p>Skutli is still in early stages and there are a lot of bugs and TODOs. If you miss your bus (or your hamster dies, or you fail your tests etc.) don't blame me. You've been warned.
+<p>Skutli is still in early stages and might contain bugs. If you miss your bus (or your hamster dies, or you fail your tests etc.) don't blame me. You've been warned.
 
 <h1 id="status">Status</h1>
-<p>Skutli is currently in version 0.1.0. The main screen displays a list of all the routes and each route has a screen where the next arrival time for the main stations is displayed. That is all for now.
+<p>Skutli is currently in version 0.2.0. The main screen displays a list of all the routes and each route has a screen where the next two arrival times for the main stations are displayed.
 
 <h1 id="screenshots">Screenshots</h1>
-<p>This breif overview wouldn't be complete without screenshots!
 <div id="screenshotwrap">
     <div class="screenshot">
     <h2>Main screen</h2>
-    <a href="img/screenshots/0.1.0/skutli1.png" class="screenshot-link">
-        <img src="img/screenshots/0.1.0/thumb_skutli1.png" alt="The main screen displays a list of all the routes">
+    <a href="img/screenshots/0.2.0/skutli1.png" class="screenshot-link" rel="screenshots">
+        <img src="img/screenshots/0.2.0/thumb_skutli1.png" alt="The main screen displays a list of all the routes">
     </a>
     </div>
     
     <div class="screenshot">
     <h2>Route screen</h2>
-    <a href="img/screenshots/0.1.0/skutli2.png" class="screenshot-link">
-        <img src="img/screenshots/0.1.0/thumb_skutli2.png" alt="The route screen displays a list of the main stations on a route and the next arrival time for each of them">
+    <a href="img/screenshots/0.2.0/skutli2.png" class="screenshot-link" rel="screenshots">
+        <img src="img/screenshots/0.2.0/thumb_skutli2.png" alt="The route screen displays a list of the main stations on a route and the next two arrival times for each of them">
     </a>
     </div>
 </div>
 
 <h1 id="downloads">Downloads</h1>
 <h2>apk file</h2>
-    <h3>Version 0.1.1</h3>
-    <p><a href="http://baldur.biz/skutli/Skutli-0.1.0.apk">Version 0.1.1</a> (23kb).
-    <p><img src="img/qr/0.1.1.png" alt="QR Code with a download link for version 0.1.0">
+    <h3>Current version: 0.2.0</h3>
+    <p><a href="http://baldur.biz/skutli/Skutli-0.2.0.apk">Version 0.2.0</a> (24kb).
+    <p><img src="img/qr/0.2.0.png" alt="QR Code with a download link for version 0.2.0">
+    <h4>Changelog</h4>
+    <ul>
+        <li>Skutli can now be moved to the SD card in the phone.
+        <li>Absolute arrival times are displayed in 24h format. This used to be in 12h format without PM/AM identifier.
+        <li>Previous versions crashed when trying to display the schedule for routes that did not run that day.
+        <li>Displaying 0min instead of next arrival time when the bus is at the station.
+        <li>Arrival times update dynamically (no need to reopen the route).
+        <li>The schedule list now displays next two arrival times.
+    </ul>
     
-    <h3>Version 0.1.0</h3>
-    <p><a href="http://baldur.biz/skutli/Skutli-0.1.0.apk">Version 0.1.0</a> (23kb).
-    <h4>Known bugs</h4>
-    <p>Version 0.1.0 uses 12 hour clock to determine when the next bus arrives, so it only works from 12AM to 12PM.
+    <a href="#" id="old-versions-link">Show old versions</a>
+    <div id="old-versions">
+        <h3>Version 0.1.1</h3>
+        <p><a href="http://baldur.biz/skutli/Skutli-0.1.0.apk">Version 0.1.1</a> (23kb).
+        <h4>Changelog</h4>
+        <ul>
+            <li>Version 0.1.0 used 12 hour clock to determine when the next bus arrives, so it only worked from 12AM to 12PM.
+        </ul>
+        
+        <h3>Version 0.1.0</h3>
+        <p><a href="http://baldur.biz/skutli/Skutli-0.1.0.apk">Version 0.1.0</a> (23kb).
+    </div>
 
 <h2>Source</h2>
 <p>The source code is available at <a href="https://github.com/baldurthoremilsson/Skutli">GitHub</a>.
